@@ -25,7 +25,7 @@ function Drawer({
   modal = true,
   showSwipeHandle = false,
   snapPoints,
-  swipeDirection = "down",
+  swipeDirection = "left",
   ...props
 }: DrawerPrimitive.Root.Props & {
   showSwipeHandle?: boolean
